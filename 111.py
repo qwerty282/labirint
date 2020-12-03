@@ -15,7 +15,9 @@ class LabirintTurtle:
         else:
             for i in self.txt:
                 for j in i:
-                    print(j)
+                    if "A" in j:
+                         j = j.replace('A',' ') 
+                            
 
 
 
