@@ -22,7 +22,3 @@ class LabirintTurtle:
 
 
 
-
-a = LabirintTurtle()
-a.load_map('12')
-a.show_map()
